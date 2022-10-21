@@ -72,21 +72,21 @@ To automate the creation of joint savings accounts, I had to  create a Solidity 
 
 ## * ` Compiled the smart contract.` 
 ---
-![COMP](Execution_Results\compiled.png)
+![COMP](compiled.png)
 ---
 ---
 
 
 ## * ` Clicked the Deploy button to deploy  smart contract, then confirmation of successfull deployment.`
 ---
-![deploy](Execution_Results\Deploy.png)
+![deploy](Deploy.png)
 ---
 ---
 
 ## Connected Ganache Account
 ---
 ---
-![ganache](Execution_Results\Ganache.png)
+![ganache](Ganache.png)
 
 
 ## Step 3: Interact with Deployed Smart Contract
@@ -94,10 +94,10 @@ To automate the creation of joint savings accounts, I had to  create a Solidity 
 
 ## * ` Used the `setAccounts` function to define the authorized Ethereum address that will be able to withdraw funds from the contract.`
 
-![seta](Execution_Results\set_account.png)    
+![seta](set_account.png)    
 ---
 ---
-![setb](Execution_Results\setacc_log.png)
+![setb](setacc_log.png)
 
 ## * ` Tested the deposit functionality of the smart contract by sending the following amounts of ether. After each transaction, I then used the contractBalance function to verify that the funds were added to the contract:
 ---
@@ -105,18 +105,18 @@ To automate the creation of joint savings accounts, I had to  create a Solidity 
 
 
   ##  * Transaction 1: Send 1 ether as wei.
-  ![tran1](Execution_Results\trans1.png)
+  ![tran1](trans1.png)
   ---
   ---
 
 
   ##  * Transaction 2: Send 10 ether as wei.
-  ![tran2](Execution_Results\trans2.png)
+  ![tran2](trans2.png)
   ---
   ---
 
   ##  * Transaction 3: Send 5 ether.
-  ![tran3](Execution_Results\trans3.png)
+  ![tran3](trans3.png)
 
    
 
@@ -128,19 +128,19 @@ To automate the creation of joint savings accounts, I had to  create a Solidity 
  ### `After each transaction, I used the contractBalance function to verify that the funds were withdrawn from your contract.
  ---
  ---
- ![withdr1](Execution_Results\withdracc1.png)
+ ![withdr1](withdracc1.png)
  ---
  ---
- ![withdr2](Execution_Results\withdracc2.png)
+ ![withdr2](withdracc2.png)
  
  
   ### ! Also, uses the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
   ---
   ---
-  ![lastwith](Execution_Results\lasttowith.png)
+  ![lastwith](lasttowith.png)
   ---
   ---
-  ![lastam](Execution_Results\lastamount.png)
+  ![lastam](lastamount.png)
 
 
 
